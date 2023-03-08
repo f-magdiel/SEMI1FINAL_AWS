@@ -1,0 +1,30 @@
+.perfil-container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .perfil-container > * {
+    flex: 0 0 25%;
+    margin: 5px;
+  }
+  
+  .publicaciones-container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .publicaciones-container > .publicacion {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .publicaciones-container > .publicacion > ul {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .publicaciones-container > .publicacion > ul > li {
+    flex: 0 0 25%;
+    margin: 5px;
+  }
+  

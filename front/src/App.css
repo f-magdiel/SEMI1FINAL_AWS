@@ -1,0 +1,345 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Ubuntu', serif;
+}
+
+body {
+  background-color: #e8e8e8;
+}
+
+.Header {
+  background-color: rgb(0, 0, 0);
+}
+
+.footer {
+  position: fixed;
+  background-color: black;
+  height: 50px;
+  width: 100%
+}
+
+.Header-Text {
+  font-size: 10pt;
+  padding: 30px;
+  color: rgb(247, 247, 247);
+}
+
+.radio-group {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.radio-group-title {
+  font-weight: bold;
+}
+
+.radio-input {
+  margin: 5px;
+}
+
+.input-filter {
+  padding: 25px;
+}
+
+.search-input {
+  margin: 10px
+}
+
+.loader-segment {
+ background-color: black;
+  width: 100%;
+  height: 500px;
+}
+
+/* LOGIN PAGE */
+
+/* .Login-Page {
+  border: 2px solid black;
+ } */
+
+.Login-Page-Body {
+  padding: 100px;
+}
+
+.Login-Form {
+  width: 40%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+  background: #fff;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Login-Form-Header {
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Login-Forn-Header-Text {
+  padding-top: 30px;
+  font-size: 20pt;
+  font-weight: bold;
+  color: black;
+}
+
+.Login-Form-Body {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+
+.Login-Form-Button {
+  text-align: center;
+}
+
+
+/* REGISTER PAGE */
+
+.Register-Page-Body {
+  padding: 60px;
+}
+
+.Register-Form {
+  width: 80%;
+  height: auto;
+  background: #fff;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.Register-Form-Body {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Register-Form-Inputs {
+  column-count: 2;
+  column-fill: balance;
+  column-gap: 10%;
+  padding-bottom: 30px;
+}
+
+.Register-Form-Button {
+  text-align: center;
+}
+
+.input-image {
+  max-height: 100px;
+  scale: 0.5;
+}
+
+
+/* DASHBOARD PAGE*/
+
+.Dashboard-Page-Body {
+  width: 80%;
+  height: auto;
+  background: #fff;
+  border-radius: 20px;
+  margin-top: 2.5%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.dashboard-page-body-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20pt;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.Dashboard-Grid {
+  padding: 0px 15px 15px 15px;
+}
+
+.grid-row {
+  padding: 10px;
+}
+
+.mosaico {
+  margin-left: 50px !important;
+  margin-right: 50px !important;
+  height: auto;
+  max-height: 350px;
+  overflow-y: scroll;
+}
+
+.loader-dashboard-segment{
+ height: 350px;
+ width: auto;
+}
+
+/* // FILE CARD DISPLAY*/
+
+/* .file-card-display{
+
+} */
+
+.card-display-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+
+.file-modal-body {
+  width: 80%;
+  height: 700px;
+  margin: auto;
+  background-color: #e8e8e8;
+}
+
+.file-display {
+  text-align: center;
+  max-height: 35%;
+}
+
+.file-display-image {
+  width: fit-content;
+  margin: auto;
+  height: auto;
+  text-align: center;
+}
+
+.PDFZone {
+  padding-top: 10px;
+  margin-left: 18%;
+  margin-right: auto;
+  max-height: 10%;
+}
+
+.ControlPanel {
+  width: 80%;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* UPLOAD PAGE */
+
+.upload-page {
+  width: 80%;
+  height: auto;
+  background: #fff;
+  border-radius: 20px;
+  margin-top: 2.5%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.upload-page-header {
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.upload-page-header-txt {
+  padding-top: 30px;
+  font-size: 20pt;
+  font-weight: bold;
+  color: black;
+}
+
+/* 
+.upload-page-body {
+  width: 85%;
+ height: auto;
+ background: #fff;
+ border-radius: 20px;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 20px;
+  padding-top: 100px;
+}
+
+.upload-form {} */
+
+/*    FRIENDS   */
+
+.friends-page {
+  width: 80%;
+  height: auto;
+  background: #fff;
+  border-radius: 20px;
+  margin-top: 2.5%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.friends-page-header-txt {
+  text-align: center;
+  font-size: 20pt;
+  font-weight: bold;
+  color: black;
+}
+
+.friends-page-body {
+  padding: 20px;
+}
+
+/* .friends-grid{
+
+} */
+
+.friends-mosaic {
+  margin-left: 50px !important;
+  margin-right: 50px !important;
+  height: auto;
+  padding: 10px
+}
+
+.friends-cointainer {
+  overflow-y: scroll;
+  height: 500px;
+  margin: auto;
+}
+
+
+/* FILES VIEWER PAGE */
+
+.files-page{
+ width: 80%;
+ height: auto;
+ background: #fff;
+ border-radius: 20px;
+ margin-top: 2.5%;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 20px;
+}
+
+/* .files-page-header{
+
+} */
+
+.files-page-header-txt{
+ text-align: center;
+ font-size: 20pt;
+ font-weight: bold;
+ color: black;
+}
+
+.files-page-body{
+ padding: 20px;
+}
